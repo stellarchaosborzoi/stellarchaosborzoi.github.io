@@ -26,12 +26,12 @@ a {
 }
 
 
-.dog-info {
+.dog-info, .puppy-info {
     text-align: center;
     margin-bottom: 20px;
 }
 
-.dog-info img {
+.dog-info img, .puppy-info img {
     max-width: 80%;
     height: auto;
 }
@@ -41,7 +41,7 @@ ul {
 }
 
 nav {
-    background-image: url('bg.jpg');
+    background-image: url('img/bg.jpg');
     background-size: cover;
     background-position: center;
     padding: 20px 0;
@@ -99,7 +99,7 @@ nav ul li a:hover {
     height: auto;
 }
 
-.dog-image {
+.dog-image, .puppy-image {
     width: 55%;
     height: auto;
 }
