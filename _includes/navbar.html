@@ -1,0 +1,14 @@
+<nav class="navbar">
+    <div class="container">
+        <a href="/" class="nav-logo">Stellar Chaos</a>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul class="navbar-list">
+            <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+            <li><a href="/dogs.html" {% if page.url == "/dogs.html" %}class="active"{% endif %}>Our Dogs</a></li>
+            <li><a href="/litters.html" {% if page.url == "/litters.html" %}class="active"{% endif %}>Litters</a></li>
+            <li><a href="/puppies.html" {% if page.url == "/puppies.html" %}class="active"{% endif %}>Puppies</a></li>
+            <li><a href="/contact.html" {% if page.url == "/contact.html" %}class="active"{% endif %}>Contact</a></li>
+        </ul>
+    </div>
+</nav>
