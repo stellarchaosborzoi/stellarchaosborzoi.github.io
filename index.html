@@ -1,61 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stellar Chaos</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-	<script src="https://cdn.counter.dev/script.js" data-id="351ca86c-d7df-47c3-a7f2-e04becd5f829" data-utcoffset="2"></script>
-</head>
-<body>
- <div id="page-container">
-   <div id="content-wrap">
-    <nav class="navbar">
-        <div class="container">
-            <img src="img/stellar_chaos_w.png" alt="Stellar Chaos">
-            <input type="checkbox" id="menu-toggle" class="menu-toggle">
-            <label for="menu-toggle" class="menu-icon">&#9776;</label>
-            <ul class="navbar-list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="dogs.html">Our Dogs</a></li>
-				<li><a href="litters.html">Litters</a></li>
-                <li><a href="puppies.html">Puppies</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="container">
-		<div class="text-box">
-			<h2>About Stellar Chaos</h2>
-			<p>I'm Pinja and I'm a lifelong dog person, and I've almost always had a dog. I live with my husband and two sons in Oulu, Finland. Our family thrives on the companionship of dogs. Our four borzois and two rough collies keep our lives lively and full of fur. I believe in responsible breeding and prioritize the health and happiness of our dogs above all else. I have not bred any litters yet, but with careful planning there might be one in the future. My breeding plans are solely for borzois, I am not planning on any collie litters.</p>
-			<p>While I enjoy showing our dogs and participating in sighthound events (lure coursing, track racing), my main focus is creating a loving home where our furry friends can relax and be themselves.
-			</p>
-			<p>
-			The name Stellar Chaos comes from the essence of the borzoi. These dogs are incredibly beautiful, stellar, but they are also full of chaos and will bring much fun and chaos to their owners' lives. A borzoi owner will need huge amounts of humour to live with these creatures.
-			</p>
-		</div>
-		
-		<center>
-		<img src="img/all.jpg" alt="dogs" class="dynamic-image">
-		</center>
-		
-		<div class="text-box">
-			<h2>News</h2>
-			<ul>
-			<li>25.5.2025 - Added litters-page</li>
-			<li>20.4.2025 - Puppies- and dogs-pages updated</li>
-			<li>9.3.2025 - Puppies-page updated</li>
-			<li>10.1.2025 - Puppies-page updated</li>
-			</ul>
-		</div>
-	</div>
-	</div>
-	<footer id="footer">
-        <div class="container">
-            <p>&copy; 2025 Pinja Vaskivuo</p>
-        </div>
-    </footer>
-	</div>
-</body>
-</html>
+---
+layout: default
+title: Home
+---
+
+<div class="hero">
+    <div class="hero-overlay">
+        <p class="hero-tagline">Borzoi kennel in Oulu, Finland</p>
+        <p class="hero-sub">Beautiful, elegant, and wonderfully chaotic.</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="about-section">
+        <h2>About the Kennel</h2>
+        <p>I'm Pinja and I'm a lifelong dog person, and I've almost always had a dog. I live with my husband and two sons in Oulu, Finland. Our family thrives on the companionship of dogs. Our five borzois and one rough collie keep our lives lively and full of fur.</p>
+        <p>I believe in responsible breeding and prioritize the health and happiness of our dogs above all else. I have bred one litter and my future breeding plans are solely for borzois, I am not planning on any collie litters.</p>
+        <p>While I enjoy showing our dogs and participating in sighthound events (lure coursing, track racing), my main focus is creating a loving home where our furry friends can relax and be themselves.</p>
+        <p class="about-name-origin">The name <em>Stellar Chaos</em> comes from the essence of the borzoi. These dogs are incredibly beautiful — stellar — but they are also full of chaos and will bring much fun to their owners' lives. A borzoi owner will need huge amounts of humour to live with these creatures.</p>
+    </div>
+
+    <div class="index-cards">
+        <a href="/dogs.html" class="index-card">
+            <div class="index-card-label">Our Dogs</div>
+            <p>Meet our five borzois and one rough collie.</p>
+        </a>
+        <a href="/litters.html" class="index-card">
+            <div class="index-card-label">Litters</div>
+            <p>Browse our first litter, the Ghost Puppies.</p>
+        </a>
+        <a href="/contact.html" class="index-card">
+            <div class="index-card-label">Contact</div>
+            <p>Get in touch with questions or inquiries.</p>
+        </a>
+    </div>
+
+    <div class="news-section">
+        <h2>News</h2>
+        <ul class="news-list">
+            <li><span class="news-date">19.4.2026</span> Redesigned the layout</li>
+        </ul>
+    </div>
+</div>
